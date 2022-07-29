@@ -1,0 +1,19 @@
+#!/bin/bash
+#Author: Carol
+#Date: July 2022
+
+##Description: System Inventory Script 
+
+echo " Checking the memory, please wait..."
+free -m
+
+echo " Checking the hard drive, please wait..."
+lsblk
+
+echo " Checking the number of CPU please wait...."
+nproc
+
+echo " Checking ehat OS is installed"
+
+cat /etc/os-release
+
