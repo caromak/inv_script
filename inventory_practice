@@ -7,13 +7,21 @@
 echo " Checking the memory, please wait..."
 free -m
 
+sleep 4
+
 echo " Checking the hard drive, please wait..."
 lsblk
+
+sleep 4
 
 echo " Checking the number of CPU please wait...."
 nproc
 
+sleep 
+
 echo " Checking ehat OS is installed"
 
 cat /etc/os-release
+
+
 
