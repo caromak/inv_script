@@ -17,3 +17,5 @@ echo " Checking ehat OS is installed"
 
 cat /etc/os-release
 
+echo " Checking the memory and CPU"
+
